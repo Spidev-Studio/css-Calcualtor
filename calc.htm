@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Css Calculator</title>
+    <link rel="stylesheet" href="./styles/index.css">
+</head>
+<body>
+   <div class="calc-body">
+        <div class="result-display"></div>
+        <!-- This is to wrap all the btn columns to enable me display the colums flex -->
+        <div class="all-btn-wrapper">
+                <div class="d-flex column">
+                    <span class="btns">1</span>
+                    <span class="btns">3</span>
+                    <span class="btns">5</span>
+                    <span class="btns special">7</span>
+                    <span class="btns">9</span>
+                </div>  <!--  first column ends here-->
+                <div class="d-flex column">
+                    <span class="btns">2</span>
+                    <span class="btns">4</span>
+                    <span class="btns special">6</span>
+                    <span class="btns">8</span>
+                    <span class="btns">0</span>
+                </div>  <!-- second column ends here -->
+                <div class="d-flex column">
+                    <span class="btns">+</span>
+                    <span class="btns special">-</span>
+                    <span class="btns">*</span>
+                    <span class="btns">/</span>
+                    <span class="btns">.</span>
+                </div>  <!--  third column ends here-->
+
+                <div class="d-flex column">
+                            <span class="btns special">C</span>
+                            <span class="btns equal-sign">=</span>
+                </div>  <!-- fourth column ends here -->
+                        
+        </div>
+   </div> 
+</body>
+</html>
